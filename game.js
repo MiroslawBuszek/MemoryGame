@@ -7,3 +7,15 @@ const cardColors = [
 
   let cards = document.querySelectorAll("div")
   cards = [...cards]
+
+
+  const init = function(){
+       cards.forEach(function(card){
+       const position = Math.floor(Math.random() * cardColors.length)
+       card.classList.add(cardColors[position])
+       cardColors.splice(position, 1)
+       })
+
+  }
+
+  init()
