@@ -61,9 +61,9 @@ div {
 }
 
 .hidden {
-    background-color: #eee;
+    background-color: #000;
 }
 
 .off {
-    background-color: #000;
+    background-color: #eee;
 }
